@@ -23,23 +23,20 @@ This Spring Boot application is a REST API that provides endpoints for booking/r
     mvn spring-boot:run
     ```
 
-•	Open the project into IntelliJ 
-•	Run the PhoneReservationApplication.java can also run using command 
-•	Reach till spring boot application folder (phone-reservation-app)
-•	Run this command (mvn spring-boot:run)
-
 ## API Documentation
 http://localhost:8090/swagger-ui.html#
 
 ### Base URL
 The base URL for the API is:
 
-`http://localhost:8090//api/phone`
+`http://localhost:8090/api/phone/`
 
 
 ## Docker packaging
+ ```bash
 docker build --tag phone-reservation-app .
 docker run -p 8080:8090 -t phone-reservation-app --name -app
+   ```
 Access the application using URL : http://localhost:8080/api/phone/book
 
 ## Design document
