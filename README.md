@@ -9,7 +9,7 @@ This Spring Boot application is a REST API that provides endpoints for booking/r
 
 1. Clone the repository:
     ```bash
-    git clone git@github.com:kradhakr/phone-reservation-app.git
+    git clone https://github.com/kradhakr/phone-reservation-app.git
     cd phone-reservation-app
     ```
 
